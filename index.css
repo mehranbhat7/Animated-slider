@@ -1,0 +1,39 @@
+body{background-color: rgba(57, 48, 123, 0.397);}
+*{
+    padding:0px;
+    margin: 0px;
+}
+h1{
+    text-align: center;
+    text-decoration: underline;
+    text-shadow: 0px 0px 20px;
+    color: rgba(0, 0, 0, 0.604);
+    
+}
+main{
+    width: 70%;
+    height: 500px;
+    margin: auto;
+    margin-top: 100px;
+    position: relative;
+    overflow: hidden;
+    border: 1px solid black;
+    border-radius: 25px;
+}
+.slide{
+    height: 100%;
+    width: 100%;
+    transition: 1.5s ease-in-out;
+    position: absolute;
+}
+.nav{
+    text-align: center;
+    margin-top: 20px;
+}
+.nav button{
+    font-size: 20px;
+    background-color: rgba(0, 255, 255, 0.262);
+    padding: 10px;
+    border-radius: 30px;
+
+}
